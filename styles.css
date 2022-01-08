@@ -56,7 +56,8 @@ button{
     color:#e5e7eb;
     align-content:space-between;
     width:400px;
-    height:200px;
+    height:250px;
+    flex:1;
 }
 
 .awesome{
@@ -80,8 +81,49 @@ button{
 
 .information{
 display:flex;
+flex-direction:column;
 }
 
+.infoheader{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 10px 50px 10px 50px;
+    font-size:36px;
+    color:#1f2937;
+    font-weight:800;
+}
+
+.boxes {
+    height:100px;
+    width:100px;
+    border-style:solid;
+    border-color:#3882f6;
+    border-radius:10px;
+    display:flex;
+    flex-wrap:nowrap;
+
+}
+
+.bigbox {
+    display:flex;
+    flex-direction:row;
+    flex:1;
+    justify-content:center;
+}
+
+.boxnbox {
+    display:flex;
+    flex-direction:column;
+    padding:50px 50px 50px 50px;
+    justify-content:space-around;
+}
+
+.box-text {
+    display:flex;
+    flex-wrap:wrap;
+    width:100px;
+}
 .quote{
     background-color:#e5e7eb;
 }
